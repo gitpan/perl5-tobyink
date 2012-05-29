@@ -1,0 +1,39 @@
+# This file provides instructions for packaging.
+
+@prefix : <http://purl.org/NET/cpan-uri/terms#> .
+
+<http://purl.org/NET/cpan-uri/dist/perl5-tobyink/project>
+	:perl_version_from _:main ;
+	:version_from _:main ;
+	:readme_from _:main ;
+	:test_requires "Test::More 0.61"  ;
+	:requires
+		"autodie 0",
+		"Carp 0",
+		"constant",
+		"Devel::Assert 0",
+		"Encode 0",
+		"indirect 0",
+		"IO::Handle 0",
+		"List::MoreUtils 0",
+		"List::Util 0",
+		"Method::Signatures::Simple 1.00",
+		"mro 0",
+		"namespace::sweep 0",
+		"Object::Tap 0",
+		"Path::Class 0",
+		"POSIX 0",
+		"Scalar::Util 0",
+		"strict 1",
+		"Syntax::Collector 0.003",
+		"Syntax::Feature::Maybe 0",
+		"Syntax::Feature::Perform 0",
+		"Syntax::Feature::Ql 0",
+		"Syntax::Feature::Qwa 0",
+		"true 0.14",
+		"Try::Tiny 0",
+		"utf8::all 0",
+		"warnings 1".
+
+_:main <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName> "lib/perl5/tobyink.pm" .
+

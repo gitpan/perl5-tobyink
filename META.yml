@@ -1,0 +1,58 @@
+---
+abstract: 'a lightweight collection of syntax extensions'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.02'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: perl5::tobyink
+name: perl5-tobyink
+no_index:
+  directory:
+    - examples
+    - inc
+    - t
+    - xt
+requires:
+  Carp: 0
+  Devel::Assert: 0
+  Encode: 0
+  IO::Handle: 0
+  List::MoreUtils: 0
+  List::Util: 0
+  Method::Signatures::Simple: 1.00
+  Object::Tap: 0
+  POSIX: 0
+  Path::Class: 0
+  Scalar::Util: 0
+  Syntax::Collector: 0.003
+  Syntax::Feature::Maybe: 0
+  Syntax::Feature::Perform: 0
+  Syntax::Feature::Ql: 0
+  Syntax::Feature::Qwa: 0
+  Try::Tiny: 0
+  autodie: 0
+  constant: 0
+  indirect: 0
+  mro: 0
+  namespace::sweep: 0
+  perl: 5.10.0
+  strict: 1
+  true: 0.14
+  utf8::all: 0
+  warnings: 1
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=perl5-tobyink
+  homepage: https://metacpan.org/release/perl5-tobyink
+  license: http://dev.perl.org/licenses/
+  repository: https://bitbucket.org/tobyink/p5-perl5-tobyink
+version: 0.001
